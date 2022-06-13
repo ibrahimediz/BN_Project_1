@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>530</width>
-    <height>254</height>
+    <width>523</width>
+    <height>448</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -20,7 +20,7 @@
       <x>10</x>
       <y>10</y>
       <width>501</width>
-      <height>131</height>
+      <height>252</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout">
@@ -66,6 +66,30 @@
        </property>
       </widget>
      </item>
+     <item>
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>Profil Adı:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="txtProfil"/>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnTakipEt">
+       <property name="text">
+        <string>Takip Et</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnTakipBirak">
+       <property name="text">
+        <string>Takibi Bırak</string>
+       </property>
+      </widget>
+     </item>
     </layout>
    </widget>
   </widget>
@@ -74,7 +98,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>530</width>
+     <width>523</width>
      <height>24</height>
     </rect>
    </property>
